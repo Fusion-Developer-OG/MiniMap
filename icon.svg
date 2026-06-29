@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#478cbf;stop-opacity:1" /> 
+      <stop offset="100%" style="stop-color:#202b38;stop-opacity:1" /> 
+    </linearGradient>
+    <linearGradient id="fusionGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff4b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0a500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#121212" rx="40"/>
+  
+  <!-- Left Bracket -->
+  <path d="M 140 110 L 50 200 L 140 290" fill="none" stroke="url(#codeGrad)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Right Bracket -->
+  <path d="M 260 110 L 350 200 L 260 290" fill="none" stroke="url(#codeGrad)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Center Fusion Core -->
+  <circle cx="200" cy="200" r="55" fill="url(#fusionGrad)"/>
+  
+  <!-- Play/Action Cutout -->
+  <path d="M 185 175 L 230 200 L 185 225 Z" fill="#121212"/>
+</svg>
